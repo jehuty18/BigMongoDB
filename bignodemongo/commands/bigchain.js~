@@ -1,0 +1,8 @@
+var Bigchain = require('./core.js');
+var utils = require('./utils.js');
+var MongoClient = require('mongodb').MongoClient;
+var async = require('async');
+
+//per inizializzare il db richiamo il metodo 'init()' esportato dal modulo 'utils'
+utils.init();
+console.log("inizializzazione completata");
